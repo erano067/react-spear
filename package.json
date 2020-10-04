@@ -1,0 +1,10 @@
+{
+	"name": "react-spear",
+	"version": "1.0.0",
+	"description": "A library built for managing states in your app in the most simple way possible",
+	"main": "index.js",
+	"repository": "https://github.com/erano067/ReactXjs.git",
+	"author": "Eran Ohayon <erano067@gmail.com>",
+	"license": "MIT",
+	"private": false
+}
