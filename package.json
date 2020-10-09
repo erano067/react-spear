@@ -1,10 +1,37 @@
 {
-	"name": "react-spear",
-	"version": "1.0.0",
-	"description": "A library built for managing states in your app in the most simple way possible",
-	"main": "index.js",
-	"repository": "https://github.com/erano067/ReactXjs.git",
-	"author": "Eran Ohayon <erano067@gmail.com>",
-	"license": "MIT",
-	"private": false
+  "name": "react-spear",
+  "libName": "ReactSpear",
+  "version": "1.0.1",
+  "keywords": [
+    "react",
+    "spear",
+    "store",
+    "state",
+    "management"
+  ],
+  "repository": "https://github.com/erano067/react-spear.git",
+  "author": "Eran Ohayon <erano067@gmail.com>",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json",
+    "version": "yarn format && git add -A src",
+    "postversion": "git push && git push --tags",
+    "prepare": "yarn build",
+    "prepublishOnly": "yarn lint",
+    "preversion": "yarn lint"
+  },
+  "dependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.51",
+    "prettier": "^2.1.2",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.0.3"
+  }
 }
