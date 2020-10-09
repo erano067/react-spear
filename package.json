@@ -1,7 +1,8 @@
 {
   "name": "react-spear",
   "libName": "ReactSpear",
-  "version": "1.0.2",
+  "version": "1.0.3",
+  "main": "src/index.ts",
   "keywords": [
     "react",
     "spear",
