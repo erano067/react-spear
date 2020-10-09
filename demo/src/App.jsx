@@ -1,14 +1,14 @@
 import React from 'react'
-import { Up } from './components/Up';
-import { Down } from './components/Down';
+import { Counter } from './components/Counter/Counter';
 import { Display } from './components/Display';
+import { TodoManager } from './components/Todo/TodoManager';
 
 export const App = () => {
     return (
         <div>
-            <Up />
             <Display />
-            <Down />
+            <Counter />
+            <TodoManager />
         </div>
     )
 }

@@ -1,8 +1,8 @@
 {
   "name": "react-spear",
   "libName": "ReactSpear",
-  "version": "1.0.3",
-  "main": "src/index.ts",
+  "version": "1.0.4",
+  "main": "./dist/index.js",
   "keywords": [
     "react",
     "spear",
@@ -25,7 +25,7 @@
     "prepublishOnly": "yarn lint",
     "preversion": "yarn lint"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^16.13.1"
   },
   "devDependencies": {

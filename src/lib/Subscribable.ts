@@ -15,11 +15,7 @@ export class Subscribable<T> implements ISubscribable<T> {
     this._norifiers.push(handler);
 
     return () => {
-      const handlerIndex = this._norifiers.findIndex((_) => _ === handler);
-
-      if (handlerIndex === -1) return;
-
-      this._norifiers = this._norifiers.splice(handlerIndex, 1);
+      this._norifiers = this._norifiers.filter((_) => _ !== handler);
     };
   };
 }
