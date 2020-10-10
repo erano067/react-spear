@@ -1,4 +1,4 @@
-import { ISubscribable, Subscribable } from './Subscribable';
+import { ISubscribable, Subscribable } from '../lib/Subscribable';
 
 export interface ISubject<T> extends ISubscribable<T> {
   value: T;
