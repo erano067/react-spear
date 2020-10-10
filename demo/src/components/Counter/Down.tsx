@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { useSensable } from 'react-spear';
 import { Store } from '../../store';
 
@@ -8,5 +8,5 @@ export const Down = () => {
         <button onClick={() => Store.counter.broadcast(count - 1)}>
             Down {count}
         </button>
-    )
-}
+    );
+};
