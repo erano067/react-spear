@@ -1,4 +1,4 @@
-import { ISubject } from '../Subject/Subject';
+import { ISubject } from '../subjects/Subject';
 import { useEffect, useState } from 'react';
 
 export const useSensable = <T>(subject: ISubject<T>) => {

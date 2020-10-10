@@ -8775,8 +8775,10 @@ react-scripts@3.4.3:
   optionalDependencies:
     fsevents "2.1.2"
 
-react-spear@../:
-  version "1.0.3"
+react-spear@1.0.5:
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/react-spear/-/react-spear-1.0.5.tgz#9b844d134e2aa40854c2dbe178cb3aff368c180f"
+  integrity sha512-eUoWvyNwM2jF91SG2tCO868v5pdrtk+uML+ZK8+QCbhcZM0221mqgwCb/nw/SXG22ZTF1rYy9Hx0ArvTZf1YpQ==
 
 react@^16.13.1:
   version "16.13.1"

@@ -14,5 +14,5 @@ export class StorageSubject<T> extends Subject<T> {
   public broadcast = (nextValue: T) => {
     this.storage.set(this.storageKey, nextValue);
     super.broadcast(nextValue);
-  }
+  };
 }
